@@ -2,7 +2,7 @@
 """
 
 example:
-  python send_sms.py "6083323002@txt.att.net" "lol"
+  python send_sms.py "1234567890@txt.att.net" "lol"
   
   First argument is the email address associated with a mobile phone
   Second argument is the message to be sent
