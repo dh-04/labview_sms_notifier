@@ -12,8 +12,8 @@ example:
 import imp
 import sys
 
-SMSNotifier = imp.load_source('SMSNotifier', r'F:\Rzchlab\Google Drive\julian_irwin\virtual_instruments\140723_sms_notifier\SMSNotifier.py')
-creds = imp.load_source('SMSCredentials', r'F:\Rzchlab\Google Drive\julian_irwin\virtual_instruments\140723_sms_notifier\SMSCredentials.py')
+SMSNotifier = imp.load_source('SMSNotifier', r'...path_to_file\SMSNotifier.py')
+creds = imp.load_source('SMSCredentials', r'...path_to_file\SMSCredentials.py')
 
 credentials = creds.labview_credentials
 credentials[3] = sys.argv[1]
